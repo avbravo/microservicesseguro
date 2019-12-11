@@ -11,6 +11,7 @@ JAVA EE 8 API SECURITY
         </web-resource-collection>
         <auth-constraint>
             <role-name>administrador</role-name>
+           <role-name>testing</role-name>
           
         </auth-constraint>
     </security-constraint>
@@ -18,6 +19,9 @@ JAVA EE 8 API SECURITY
      
     <security-role>
         <role-name>administrador</role-name>
+    </security-role>
+    <security-role>
+       <role-name>testing</role-name>
     </security-role>
     
  
