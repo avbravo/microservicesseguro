@@ -21,8 +21,8 @@ import javax.security.enterprise.identitystore.IdentityStore;
 public class TestIdentityStore implements IdentityStore {
 
     public CredentialValidationResult validate(UsernamePasswordCredential usernamePasswordCredential) {
-        if (usernamePasswordCredential.compareTo("test", "secret")) {
-            return new CredentialValidationResult("test", new HashSet<>(asList("administrador", "testing")));
+        if (usernamePasswordCredential.compareTo("myusername", "mypassword")) {
+            return new CredentialValidationResult("myusername", new HashSet<>(asList("administrador", "testing")));
         }
 
         return INVALID_RESULT;
