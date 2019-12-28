@@ -57,6 +57,7 @@
     </dependencies>
 
     <build>
+        <finalName>microservicesseguro</finalName>
         <plugins>
             <plugin>
                 <groupId>fish.payara.maven.plugins</groupId>
